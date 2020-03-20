@@ -1,4 +1,4 @@
 #!/bin/sh
 
-docker-compose down
-docker-compose up
+docker-compose -f docker-compose-prod.yml down
+docker-compose -f docker-compose-dev.yml up

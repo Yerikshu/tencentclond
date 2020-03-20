@@ -1,7 +1,7 @@
 version: '2'
 services:
     onlinebuy-app:
-        image: ccr.ccs.tencentyun.com/otherproject/online:3.5
+        image: ccr.ccs.tencentyun.com/otherproject/online:dev.4.13.6
         environment:
             # - _JAVA_OPTIONS=-Xmx512m -Xms256m
             - SPRING_PROFILES_ACTIVE=prod,swagger
